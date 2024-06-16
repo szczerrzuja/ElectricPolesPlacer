@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"Y:\\githubrep\\PowerLines\\TestField\\Source\\TestField\\TestField.Build.cs",
+		"Y:\\githubrep\\PowerLines\\TestField\\Source\\TestField.Target.cs",
+		"Y:\\githubrep\\PowerLines\\TestField\\Source\\TestFieldEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.2"
+}

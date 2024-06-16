@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "y:\\githubrep\\powerlines\\testfield\\intermediate\\build\\win64\\unrealeditor\\inc\\testfield\\uht\\electricpole.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "y:\\githubrep\\powerlines\\testfield\\intermediate\\build\\win64\\x64\\testfieldeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "y:\\githubrep\\powerlines\\testfield\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\testfield\\definitions.testfield.h",
+            "y:\\githubrep\\powerlines\\testfield\\source\\testfield\\electricpole.h",
+            "y:\\githubrep\\powerlines\\testfield\\intermediate\\build\\win64\\unrealeditor\\inc\\testfield\\uht\\electricpole.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

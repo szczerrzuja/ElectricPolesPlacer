@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TestField.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestField.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TestFieldEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TestField">
+      <UniqueIdentifier>{BF067725-0796-3C34-A754-2244284335DB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TestField\ElectricPole.cpp">
+      <Filter>Source\TestField</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestField\ElectricPole.h">
+      <Filter>Source\TestField</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestField\ElectricPolePlacer.cpp">
+      <Filter>Source\TestField</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestField\ElectricPolePlacer.h">
+      <Filter>Source\TestField</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TestField\TestField.Build.cs">
+      <Filter>Source\TestField</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TestField\TestField.cpp">
+      <Filter>Source\TestField</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestField\TestField.h">
+      <Filter>Source\TestField</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
