@@ -22,15 +22,17 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh", meta = (AllowPrivateAccess = "true"))
 	UStaticMesh* StaticMesh;
 
-	UPROPERTY(BlueprintReadWrite, Category = "Mesh", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Mesh", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* StaticMeshComponent;
 
 	//holds points, where power lines are connected to electric Pole
-	UPROPERTY(BlueprintReadWrite, Category = "Mesh", meta = (AllowPrivateAccess = "true"))
-	TArray<FVector> PolePointOfConnection;
+	//UPROPERTY(BlueprintReadWrite, Category = "Mesh", meta = (AllowPrivateAccess = "true"))
+	//TArray<FVector> PolePointOfConnection;
+	
 	
 	
 public:	
+	void OnConstruction(const FTransform& Transform);
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

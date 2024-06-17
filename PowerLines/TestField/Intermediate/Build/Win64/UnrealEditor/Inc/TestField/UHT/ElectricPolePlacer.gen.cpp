@@ -197,8 +197,6 @@ struct Z_Construct_UClass_AElectricPolePlacer_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IWantToBake_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Tool" },
-		{ "ClampMax", "2000000.0" },
-		{ "ClampMin", "1.0" },
 		{ "ModuleRelativePath", "ElectricPolePlacer.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PoleTemplate_MetaData[] = {
@@ -304,10 +302,10 @@ struct Z_CompiledInDeferFile_FID_TestField_Source_TestField_ElectricPolePlacer_h
 		{ FPowerPolesConnection::StaticStruct, Z_Construct_UScriptStruct_FPowerPolesConnection_Statics::NewStructOps, TEXT("PowerPolesConnection"), &Z_Registration_Info_UScriptStruct_PowerPolesConnection, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPowerPolesConnection), 2770041920U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AElectricPolePlacer, AElectricPolePlacer::StaticClass, TEXT("AElectricPolePlacer"), &Z_Registration_Info_UClass_AElectricPolePlacer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AElectricPolePlacer), 3439894841U) },
+		{ Z_Construct_UClass_AElectricPolePlacer, AElectricPolePlacer::StaticClass, TEXT("AElectricPolePlacer"), &Z_Registration_Info_UClass_AElectricPolePlacer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AElectricPolePlacer), 2985373899U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestField_Source_TestField_ElectricPolePlacer_h_436193054(TEXT("/Script/TestField"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestField_Source_TestField_ElectricPolePlacer_h_2067204668(TEXT("/Script/TestField"),
 	Z_CompiledInDeferFile_FID_TestField_Source_TestField_ElectricPolePlacer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestField_Source_TestField_ElectricPolePlacer_h_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_TestField_Source_TestField_ElectricPolePlacer_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestField_Source_TestField_ElectricPolePlacer_h_Statics::ScriptStructInfo),
 	nullptr, 0);

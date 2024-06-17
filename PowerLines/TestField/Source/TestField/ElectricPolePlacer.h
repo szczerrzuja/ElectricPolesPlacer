@@ -66,7 +66,7 @@ protected:
 	float MaxDistanceBetweenPoles = 2000.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool", meta = (AllowPrivateAccess = "true", ClampMin = "1.0", ClampMax = "2000000.0"))
 	float MaximumError = 2000.0f;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool", meta = (AllowPrivateAccess = "true", ClampMin = "1.0", ClampMax = "2000000.0"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool", meta = (AllowPrivateAccess = "true"))
 	bool IWantToBake = false;
 
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool", meta = (AllowPrivateAccess = "true", MakeEditWidget = true))

@@ -10,16 +10,22 @@ AElectricPole::AElectricPole()
 	PrimaryActorTick.bCanEverTick = true;
 	StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ElectricPole"));
 	StaticMeshComponent->SetupAttachment(RootComponent);
-	StaticMeshComponent->SetStaticMesh(StaticMesh);
+	
 }
 
 // Called when the game starts or when spawned
 void AElectricPole::BeginPlay()
 {
 	Super::BeginPlay();
-
+	StaticMeshComponent->SetStaticMesh(StaticMesh);
 	
 
+}
+
+void AElectricPole::OnConstruction(const FTransform& Transform)
+{
+	Super::OnConstruction(Transform);
+	StaticMeshComponent->SetStaticMesh(StaticMesh);
 }
 
 // Called every frame

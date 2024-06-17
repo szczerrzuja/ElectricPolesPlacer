@@ -115,7 +115,7 @@ void AElectricPolePlacer::OnConstruction(const FTransform& Transform)
 	{
 		IWantToBake = false;
 		const FActorSpawnParameters SpawnParams;
-		const FRotator RotationOfPoles = FRotationMatrix::MakeFromX(EndPoint.GetSafeNormal()).Rotator();
+		const FRotator RotationOfPoles = FRotationMatrix::MakeFromX(EndPoint.GetSafeNormal2D()).Rotator() + FRotator(0.0, 90.0, 0.0);
 		for (auto const& pos : CreatedPolesPositions)
 		{
 			AActor* NewActor = GetWorld()->SpawnActor<AActor>(PoleTemplate, pos + GetActorLocation(), RotationOfPoles + RotationOffsetForAllPoles);
